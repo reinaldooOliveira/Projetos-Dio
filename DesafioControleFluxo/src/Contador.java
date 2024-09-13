@@ -23,7 +23,7 @@ public class Contador {
         if (parametroDois > parametroUm) {
             int contagem = parametroDois - parametroUm;
             for (int i = 0; contagem != i; contagem--) {
-                System.out.print(contagem+ " ");
+                System.out.print(contagem + " ");
             }
         } else {
             throw new ParametrosInvalidosException();
